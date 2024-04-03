@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background-image: url("bckg.jpg");
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Nilai alpha diubah menjadi 0.9 */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); /* Nilai alpha diubah menjadi 0.05 */
+    width: fit-content;
+    max-width: 90%;
+}
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Tambahkan properti ini */
+}
+button {
+    background-color: #9900ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box; /* Tambahkan properti ini */
+}
+button:hover {
+    background-color: #a600ff;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    form {
+      width: 100%;
+      margin: 0;
+      box-shadow: none;
+    }
+  }
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    form {
+      width: 100%;
+      margin: 0;
+      box-shadow: none;
+    }
+  }
